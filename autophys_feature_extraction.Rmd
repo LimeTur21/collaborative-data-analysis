@@ -8,3 +8,35 @@ output: html_document
 ```{r setup, include=FALSE}
 knitr::opts_chunk$set(warning= FALSE, message= FALSE, echo = TRUE)
 ```
+
+### **Initialize Libraries**
+```{r}
+library(tidyverse)
+```
+
+### **Retrieve Data**
+```{r}
+# I think we should write this such that someone could fill a folder with csv's and it would run through them sequentially, however we should probably jsut make it source the data from github so Tony can try it out without downloading a bunch of our data
+d <- read_csv("")
+```
+
+### **Feature Extraction**
+```{r}
+# Resting Em
+
+# Input Resistance
+
+# We can add more but I figured lets start with these 2 even though I think it'ss be really easy to compute these
+```
+
+### **Visualization**
+```{r}
+# Save plots and also visualize them here for visual confirmation that the code is working
+
+```
+
+### **Additional Stuff?**
+```{r}
+
+```
+
